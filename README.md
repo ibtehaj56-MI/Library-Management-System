@@ -38,6 +38,7 @@ Users List
 Transactions List
 
 Architecture Diagram
+
                 +----------------------+
                 |      USER (CLI)      |
                 +----------+-----------+
@@ -62,6 +63,7 @@ Architecture Diagram
                 |    FILE STORAGE      |
                 | (books.txt, etc.)    |
                 +----------------------+
+
 
 ⚙️ Tech Stack
 Component	Technology
