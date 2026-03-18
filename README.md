@@ -39,6 +39,8 @@ Transactions List
 
 Architecture Diagram
 
+````
+
                     +----------------------+
                     |      USER (CLI)      |
                     +----------+-----------+
@@ -64,6 +66,8 @@ Architecture Diagram
                     | (books.txt, users,  |
                     |  transactions.txt)  |
                     +----------------------+
+
+````
 
     
 ⚙️ Tech Stack
