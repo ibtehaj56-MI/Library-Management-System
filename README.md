@@ -70,7 +70,7 @@ Architecture Diagram
 ````
 
     
-⚙️ Tech Stack
+# Tech Stack
 Component	Technology
 Language	C++
 Data Structures	Linked Lists
@@ -78,8 +78,8 @@ Storage	File Handling (fstream)
 Time Handling	<ctime>
 IDE (optional)	VS Code / CodeBlocks
 
-📂 File Structure
-📁 Library-Management-System
+
+# Library-Management-System
 │
 ├── main.cpp
 ├── books.txt
@@ -87,23 +87,23 @@ IDE (optional)	VS Code / CodeBlocks
 ├── transactions.txt
 └── README.md
 
-Functional Modules
+#Functional Modules
 
-Book Management
+#Book Management
 Add books
 Track availability
 Sort by title/author
 
-User Management
+#User Management
 Add user details
 Maintain user records
 
-Transaction Management
+#Transaction Management
 Borrow books
 Return books
 Log timestamped transactions
 
-📊 System Operations
+#System Operations
 Borrow Book
 Check availability
 Mark as borrowed
@@ -113,14 +113,14 @@ Validate book
 Mark available
 Log return
 
-🔍 Search Functionality
+# Search Functionality
 
 Supports:
 Title-based search
 Author-based search
 ISBN-based search
 
-📈 Statistics Dashboard
+#Statistics Dashboard
 Displays:
 Total Books
 Available Books
@@ -136,6 +136,8 @@ users.txt	User records
 transactions.txt	Borrow/Return logs
 
 🧩 System Flowchart
+
+````
         START
           |
           v
@@ -161,41 +163,19 @@ transactions.txt	Borrow/Return logs
           v
         END / LOOP
 
-🛠️ How to Run
-1. Clone Repository
-git clone https://github.com/your-username/library-management-system.git
-cd library-management-system
+````
 
-3. Compile
-g++ main.cpp -o library
-
-5. Run
-./library
-🧪 Example Usage
-1. Add Book
-2. Add User
-3. Borrow Book
-...
-Enter choice: 1
-
-Enter Book Title: DSA
-Enter Author Name: CLRS
-Enter ISBN Number: 12345
-
-
-⚠️ Limitations
+# Limitations
 No GUI (CLI-based)
 No file loading on startup (data not reloaded into memory)
 No validation for duplicate entries
 Simple linear search (O(n))
 
-🚀 Future Improvements
+# Future Improvements
 🔄 Load data from files at startup
 🖥️ GUI (Qt / Web Interface)
 🗃️ Database integration (MySQL / SQLite)
 🔐 Authentication system
 ⚡ Faster search (Binary Search / Hashing)
 
-📱 API integration
-🤝 Contributing
-Feel free to fork this repo and improve the system!
+
